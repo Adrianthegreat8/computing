@@ -1,0 +1,21 @@
+#aibanez1:1/27/2024:Questions2.tx
+
+Q1(3) You are in HW1 directory. Which of the following pathnames is   the absolute pathname to Chap2 ?
+a)  User/your-username/HW1/Chap2
+b)  /Users/your-username/HW1/Chap2
+c)  /Chap2
+
+b
+
+Q2(3) You are in Chap2 directory. Which of the following pathnames is a relative pathname to Chap1?
+a)  ../Chap1
+b)  ../../Chap1
+c)  Chap1
+
+a
+
+Q3(3) You are in HW1, and you have to go to Chap2 by using a relative path. Which of the following is the correct code ?
+a)  Chap2
+b)  cd Chap2
+
+b

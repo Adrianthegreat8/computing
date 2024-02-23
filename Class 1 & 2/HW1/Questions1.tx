@@ -1,0 +1,79 @@
+#aibanez1:1/27/2024:HW1.tx
+
+Q1(3) What is the general format of Unix commands (there are 3 parts) ?
+Do not use Google to find out what the general format is, but read Chapter 1 of the Unix Notes, and answer this question by using the terminology adopted in this course.
+
+command, option, argument
+
+
+Q2(2) Based on the general format of the Unix command if you type:
+
+tail -2 data.txt
+
+what is the argument? Answer below:
+
+data.txt
+
+
+Q3(2) Based on the general format of the Unix command if you type:
+
+head -1 data.txt
+
+what is the command? Answer below:
+
+head
+
+
+
+Q4(2) You need to display the last three lines of the file data.txt, but you type
+
+tail-3 data.txt
+
+What is wrong with this line of code? Answer below:
+
+there must be a space before -3
+
+Write the correct code below:
+
+tail -3 data.txt
+
+
+
+Q5(2) You need to access the manual pages for the tail command, but you type
+
+cat tail
+
+What is wrong with this line of code? Answer below:
+
+the man command should be used instead of cat
+
+Write the correct code below:
+
+man tail
+
+
+Q6(2) You need to display the first line of the file data.txt, but you write
+
+head -2 data.txt
+
+What is wrong with this line of code? Answer below:
+
+this will show the first two lines
+
+Write the correct code below:
+
+head -1 data.txt
+
+
+Q7(2) You need display the content of the file data.txt, but you type
+   
+cot data.txt 
+   
+What is wrong with this line of code?
+
+the command cot is incorrect. It should be cat
+
+Write the correct code below.
+
+cat data.txt
+

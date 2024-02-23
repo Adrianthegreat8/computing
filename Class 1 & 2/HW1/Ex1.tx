@@ -1,0 +1,49 @@
+#aibanez1:1/27/2024:Ex1.tx
+
+Lession 1.3: Text editing - deletion
+Instructions: Correct the lines of text below by deleting the
+unneccesary characters with  x . Hint: use 0 to return to the left.
+Use the undo command u in case you make an error.
+
+As Gregor Samsa awoke one morning from uneasy dreams he found 
+himself transformed in his bed into a gigantic insect.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 1.4: Text editing - insertion
+Make the pairs of lines match up by inserting the missing text.
+Use the undo command u in case you make an error.
+
+This was no very great consolation to the child.
+This was no very great consolation to the child.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 1.5: Text editing - appending
+Complete the lines by filling in the missing word, then pressing A 
+to append to the line. Remember, return the cursor to the left with 0.
+
+
+"I am afraid, my dear watson, that most of your conclusions were erroneous.
+"I am afraid, my dear Watson, that most of your conclusions were erroneous.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.1: Deletion commands
+Move the cursor to the first letter of the word to be deleted, then press
+dw to delete the entire word. Rinse and repeat.
+Use the undo command u in case you make an error.
+
+The rabbit-hole went straight on like a tunnel for some way, and 
+then dipped down, so suddenly that Alice had not a moment 
+to think about stopping herself before she found herself falling 
+down a deep well.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lesson 2.2: More deletion commands
+Place the cursor on the first incorrect character of each line 
+and press d$ to delete to the end of the line.
+Use the undo command u in case you make an error.
+
+The Owl and the Pussycat went to sea
+In a beautiful pea-green boat,
+They took some honey, and plenty of money,
+Wrapped up in a five pound note. 
+
