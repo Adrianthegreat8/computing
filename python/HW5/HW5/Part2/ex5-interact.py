@@ -22,3 +22,4 @@ Tstate_1 = Tstate[0]
 print(Tstate_1[0:14:2])
 
 # Q3
+Dprot[prot1]
