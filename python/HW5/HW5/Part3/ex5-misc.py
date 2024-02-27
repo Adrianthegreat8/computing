@@ -14,3 +14,5 @@ Dchem={'hydrogen': ['H', 3], 'helium': ['He', 2], 'lithium':['Li', 3],'Adamantiu
 
 
 #Q1
+print(''.join(list((str(Laz[0]), str(Laz[0])))), " ", ' '.join(list(Laz[1].split(' '))[:-1]), " ", ''.join(list((str(Laz[0]), str(Laz[0])))))
+
