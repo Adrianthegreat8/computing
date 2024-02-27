@@ -22,4 +22,18 @@ Tstate_1 = Tstate[0]
 print(Tstate_1[0:14:2])
 
 # Q3
-Dprot[prot1]
+print(' '.join(list(D.values())))
+
+#Q4
+num_col=input("Enter a number and a color separated by a coma: ")
+
+#Q5
+print(list(list(num_col.split(','))[-1]))
+
+#Q6
+print(tuple(Dprot['prot3'][-1]))
+
+#Q7
+a=T[0]
+b=T[-1]
+print(a, b)
