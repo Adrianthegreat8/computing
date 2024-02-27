@@ -23,10 +23,10 @@ print('*'.join(s2))
 print(list(s))
 
 #QE
-print(list(ss[0:9:2]))
+print(ss.split(' '))
 
 #QF
-print(list((D[1],D[2],D[3])))
+print(list(D.values()))
 
 #QG
 print(T[0])
