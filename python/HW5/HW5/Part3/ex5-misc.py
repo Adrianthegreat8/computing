@@ -14,5 +14,34 @@ Dchem={'hydrogen': ['H', 3], 'helium': ['He', 2], 'lithium':['Li', 3],'Adamantiu
 
 
 #Q1
-print(''.join(list((str(Laz[0]), str(Laz[0])))), " ", ' '.join(list(Laz[1].split(' '))[:-1]), " ", ''.join(list((str(Laz[0]), str(Laz[0])))))
+print(Laz[0]*2+'   '+' '.join(Laz[1].split(' ')[:-1])+'   '+Laz[0]*2)
 
+#Q2
+mCA=min(D['California'])
+
+#Q3
+print('In California the minumum temperature is', mCA)
+
+#Q4
+L.extend(L1)
+print(L)
+
+#Q5
+ind=L.index('Colorado')
+print(L.pop(ind))
+print(L)
+
+#Q6
+RNA=((DNA.replace('#', '')).replace('t','u')).upper()
+print(RNA)
+
+#Q7
+print('A occurs',RNA.count('A'), 'times')
+
+#Q8
+del Dchem['Adamantium']
+print(Dchem)
+
+#Q9
+Dchem['hydrogen'][1]=1
+print(Dchem)
