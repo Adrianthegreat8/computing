@@ -1,0 +1,12 @@
+gencode={'GAG': 'E', 'TGC': 'C', 'GCA': 'A', 'AGT': 'S', 'TTA': 'L',
+         'GGA': 'G', 'CAT': 'H', 'CAC': 'H', 'GGC': 'G', 'CCC': 'P',
+         'ACA': 'T', 'ACT': 'T', 'GAT': 'D', 'CTA': 'L', 'TTC': 'F',
+         'GCT': 'A', 'GAC': 'D', 'CCT': 'P', 'CGC': 'R', 'GCC': 'A',
+         'AAA': 'K', 'GGT': 'G', 'CTT': 'L', 'AGC': 'S', 'GTA': 'V',
+         'ATT': 'I', 'GAA': 'E', 'CAA': 'Q', 'CCG': 'P', 'GCG': 'A',
+         'ATC': 'I', 'TTG': 'L', 'CAG': 'Q', 'AAT': 'N', 'AAC': 'N',
+         'CGT': 'R', 'ATA': 'I', 'TAT': 'Y', 'TAC': 'Y', 'AGG': 'R',
+         'ACG': 'T', 'TGT': 'C', 'AGA': 'R', 'CTC': 'L', 'TCC': 'S',
+         'TGG': 'W', 'CCA': 'P', 'TCG': 'S', 'TCA': 'S', 'GGG': 'G',
+         'CGA': 'R', 'ATG': 'M', 'AAG': 'K', 'CTG': 'L', 'CGG': 'R',
+         'GTG': 'V', 'GTC': 'V', 'TCT': 'S', 'ACC': 'T', 'TTT': 'F', 'GTT': 'V'}
