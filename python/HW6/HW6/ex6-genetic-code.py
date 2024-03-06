@@ -29,7 +29,21 @@ Dwh={'A': [1.8, 89.09], 'C': [2.5, 121.15], 'D': [-3.5, 133.1],
 
 Ldna=['AAG','ATG','TTC', 'CCG', 'TCC', 'GCA', 'CTA', 'GTG', 'AAC', 'GCC','CTA', 'TCC', 'TTG', 'TCG']
 
+#Q1
+gencode = dict(zip(codons,amino))
+print(gencode)
+
+#Q2
+seq=''
+for codon in Ldna:
+    seq += gencode[codon]
 
 
+print(seq)
 
+#Q3
+tweight=0
+for AA in seq:
+    tweight += Dwh[AA][1]
 
+print('The total weight is %.2f g/mol' %tweight)
