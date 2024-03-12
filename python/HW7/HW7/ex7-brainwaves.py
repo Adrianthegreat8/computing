@@ -19,8 +19,6 @@ def func_waves(_frequency, _fmin = 1, _fmax = 100):
 
     wave_pairs = {'Delta': 4, 'Theta': 8, 'Alpha': 12, 'Beta': 35, 'Gamma': 100}
     wave_type = ''
-    #included this in case I want to change the print statement to return
-    #this is necessary as if return is used an out of bounds would frequency will throw an error
 
     fmin = float(_fmin)
     fmax = float(_fmax)
