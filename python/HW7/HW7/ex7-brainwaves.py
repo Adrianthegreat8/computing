@@ -1,0 +1,43 @@
+#aibanez1:03/12/2024:ex7-brainwaves.py
+
+#Q1
+def func_waves(_frequency, _fmin = 1, _fmax = 100):
+    '''
+    Converts argument to float and print it's wave type
+    ignores if argument is out of bounds
+    :param _frequency:
+    :param _fmin: minimum frequency
+    :param _fmax: maximum frequency
+    optional because assignment requires one argument
+    I included optional bounds to not hard code the range
+    I know this isn't in the class materials but I thought it would be cool
+    I understand if I have to explain it in class
+    :return: none
+    '''
+
+    frequency = float(_frequency)
+
+    wave_pairs = {'Delta': 4, 'Theta': 8, 'Alpha': 12, 'Beta': 35, 'Gamma': 100}
+    wave_type = ''
+    #included this in case I want to change the print statement to return
+    #this is necessary as if return is used an out of bounds would frequency will throw an error
+
+    fmin = float(_fmin)
+    fmax = float(_fmax)
+
+    if (frequency >= fmin and frequency <= fmax):
+        for type,j in wave_pairs.items():
+            if frequency <= float(j):
+                wave_type = type
+                break
+            else:
+                continue
+        if (wave_type != ''):
+            print('The frequency %-5.1f Hz is %-5s type.' %(frequency, wave_type))
+
+#Q2
+L=[99.33,30.21,10.0,5.0,2.0]
+
+for i in L:
+    func_waves(i)
+
