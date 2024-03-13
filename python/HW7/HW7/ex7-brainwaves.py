@@ -8,8 +8,8 @@ def func_waves(_frequency, _fmin = 1, _fmax = 100):
     :param _frequency:
     :param _fmin: minimum frequency
     :param _fmax: maximum frequency
-    optional because assignment requires one argument
-    I included optional bounds to not hard code the range
+    optional parameters because the assignment specifies using only one argument
+    I included optional bounds so that I could loop instead of a long ifelif branch
     I know this isn't in the class materials but I thought it would be cool
     I understand if I have to explain it in class
     :return: none
