@@ -1,4 +1,4 @@
-#aibanez1:03/25/2024:global_emission.py
+#aibanez1:03/25/2024:global-emission.py
 
 #Q1
 from statistics import mean, stdev
