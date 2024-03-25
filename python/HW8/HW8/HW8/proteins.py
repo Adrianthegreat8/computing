@@ -39,7 +39,7 @@ def weight (sequence):
 if __name__ == "__main__":
     from sys import argv
 
-    s1 = str(argv)
+    s1 = argv[1]
     s1_fa = freq_am(s1, 'W')
     print('The frequency of W is %.2f' %s1_fa)
 
