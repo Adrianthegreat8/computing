@@ -1,0 +1,4 @@
+Power station,Tcold,Thot,Observed
+coal-fired power,25,565,0.36
+nuclear power,25,300,0.3
+geothermal power,80,250,0.16
