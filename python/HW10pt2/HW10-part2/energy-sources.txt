@@ -1,0 +1,18 @@
+#U.S. primary energy consumption by energy source, 2022
+#from https://www.eia.gov
+#energy in quadrillion Btu.
+source:energy:renewable
+# New Energy Sources
+Geothermal:0.21088:True
+Solar:1.87276:True
+Wind:3.8202:True
+Biomass waste:0.3954:True
+Biofuels:2.3724:True
+Wood:2.1088:True
+Hydroelectric:2.3684:True
+# Old Energy Sources
+Petroleum:36.1476:False
+Nuclear electric power:8.0328:False
+Coal:10.041:False
+Natural gas:33.1323:False
+
