@@ -1,0 +1,8 @@
+Antarctic ozone hole basic statistics, equation, and correlation coefficient:
+Mean and Standard Deviation: 21637209.302 km^2 ± 7006732.248 km^2
+Maximum value of the maximum ozone layer area and Year: 29900000 km^2 in year 2000
+Equation for Linear regression: -30640.594x^2 + 122916442.067x - -1.232e+11
+R^2 value: 0.77
+US CFC emissions basic statistics
+Mean and Standard Deviation: 40368.306 tons ± 86814.103 tons
+Maximum value of CFC and Year: 317543 tons in year 1989
