@@ -1,0 +1,7 @@
+Linear Model Coefficients:
+Intercept (b): 5.642270807992874
+Standard Error of the Intercept (SE(b)): 1.0040925363041142
+Slope (m): -0.448633109722012
+Standard Error of the Slope (SE(m)): 0.16273412029189324
+R^2:0.11242874919144885
+T-Statistic of slope as compared to 0: 2.7568472359533875
